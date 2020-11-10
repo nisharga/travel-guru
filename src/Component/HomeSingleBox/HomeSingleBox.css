@@ -1,0 +1,29 @@
+.HomeSingleBox {
+	width: 180px;
+	height: 280px;
+	background-color: powderblue;
+	float: left;
+	margin-right: 30px;
+	border-radius: 5px;
+	border: 2px solid;
+}
+.HomeSingleBox {
+  position: relative;
+  z-index: 1;
+}
+.HomeSingleBox h2 {
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+  text-transform: uppercase;
+  color: #000;
+}
+.HomeSingleBox img {
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	border-radius: 5px;
+  }
+  .HomeSingleBox{
+	  position: relative;
+  } 

@@ -1,0 +1,12 @@
+.leftSideBedRoom {
+    width: 50%;
+    float: left;
+    color: #fff;
+  }
+  .googlemap {
+    width: 40%;
+    margin-left: 10%;
+    float: right;
+    background: #fff;
+    height: 500px;
+  }

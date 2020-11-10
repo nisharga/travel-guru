@@ -1,0 +1,112 @@
+.loginIdPass h3 {
+	color: #fff;
+	margin-bottom: 0px;
+}
+.loginIdPass {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px solid #fff;
+	padding: 10px 25px;
+}
+
+.loginIdPass input[type="text"], .loginIdPass input[type="password"] {
+	border: none;
+	padding: 10px 20px;
+	margin-top: 10px;
+	width: 75%;
+	border-radius: 5px;
+}
+.loginIdPass input::placeholder {
+	color: black !important;
+	font-weight: 700;
+	opacity: 0.7;
+}
+
+
+.loginform {
+	background: yellowgreen;
+	color: black;
+	border-radius: 4px;
+	margin-top: 20px;
+	padding: 10px 69px;
+	cursor: pointer;
+	border: none;
+}
+
+.loginIdPass p{
+    color: #fff;
+    display: inline-block;
+}
+.loginIdPass button {
+	border: none;
+	padding: 0px;
+	background: transparent;
+	color: yellow;
+	cursor: pointer;
+	margin-left: 25px;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+
+/* =================
+=====================
+=====================
+===================
+google fb ============
+=====================
+======================
+==================
+=============== */
+
+
+.googleFb h4{
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+
+  .googleFb h4:before {
+    position: absolute;
+    height: 2px;
+    width: 130px;
+    background: #fff;
+    top: 10px;
+    content: '';
+    margin-left: -140px;
+  }
+  .googleFb h4:after {
+    position: absolute;
+    height: 2px;
+    width: 130px;
+    background: #fff;
+    top: 10px;
+    content: '';
+    margin-left: 10px;
+  }
+  
+  .facebook, .google {
+	padding: 10px 30px;
+	border: 1px solid;
+	border-radius: 25px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: 25%;
+	background: transparent;
+	color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.facebook img, .google img {
+	width: 25px;
+	padding-top: 5px;
+	position: absolute;
+	left: 10px;
+	top: 1px;
+}
+  

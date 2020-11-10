@@ -1,0 +1,56 @@
+.image{
+    width: 50%;
+}
+
+
+.image {
+    width: 45%;
+    float: left;
+  }
+  .roomDescription {
+    width: 50%;
+    float: right;
+  }
+  .image img {
+    width:  100%;
+  }
+  .roomDescription h2 {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .roomDescription p {
+    color: powderblue;
+  }
+  .singleroom{
+      margin-bottom: 100px;
+  }
+  .rating img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+
+.rating {
+    width: 40%;
+    float: left;
+  }
+  .price {
+    width: 40%;
+    float: right;
+  }
+  .roomDescription p {
+    margin: 10px 0;
+  }
+  .rating, .price {
+    margin-top: 10px;
+  }
+  .image, .roomDescription {
+    margin-top: 15px;
+  }
+  
+.price span {
+  font-size: 20px;
+}
+.price {
+  margin-top: 3px;
+}

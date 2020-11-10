@@ -1,0 +1,11 @@
+
+.bookingLeft {
+    width: 50%;
+    float: left;
+    color: #fff;
+    margin-top: -200px;
+    font-size: 120%;
+  }
+  .bookingLeft h1 {
+    font-size: 50px;
+  }
